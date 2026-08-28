@@ -89,6 +89,33 @@ QToolButton::menu-indicator {
     border: 1px solid #888888;
 }
 
+/* ----------ScrollBar---------- */
+QScrollBar:vertical {
+    background: transparent;
+    border: 0;
+    margin: 2px;
+    width: 10px;
+}
+
+QScrollBar::handle:vertical {
+    background: #7a7a7a;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 10px;
+    min-height: 60px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #9b9b9b;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: transparent;
+    border: none;
+    width: 0;
+}
+
 /* ----------Menu---------- */
 QMenu {
     background: #202020;

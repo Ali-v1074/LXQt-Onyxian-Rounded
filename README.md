@@ -9,12 +9,12 @@ A modern and sleek theme for the LXQt desktop environment.
 ## 🛠️ Installation Instructions
 
 ### 1. Install the Theme
-Move the `Onyxian-Rounded` folder to the following path:
-`~/.local/share/lxqt/themes/`
+Move the `themes` folder to the following path:
+`~/.local/share/lxqt/`
 
 ### 2. Install the Color Palettes
 Move the `palettes` folder to the following path:
-`~/.local/share/lxqt/palettes/`
+`~/.local/share/lxqt/`
 
 ### 3. Configure the Panel (Optional Step)
 Move the `panel.conf` file to:

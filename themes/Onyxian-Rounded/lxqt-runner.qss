@@ -23,12 +23,12 @@ QToolButton::menu-indicator {
 }
 
 #closeButton {
-    qproperty-icon: url(icons/window-close.svg);
+    qproperty-icon: url(/assets/icons/window-close.svg);
 }
 
 #actionButton {
     padding: 7px 9px;
-    qproperty-icon: url(icons/go-down.svg);
+    qproperty-icon: url(/assets/icons/go-down.svg);
 }
 
 #closeButton:hover,
@@ -154,9 +154,9 @@ QMenu::indicator {
 }
 
 QMenu::indicator:non-exclusive:checked {
-    image: url(/radio-buttons/radio-checked.svg);
+    image: url(/assets/radio-buttons/radio-checked.svg);
 }
 
 QMenu::indicator:non-exclusive:unchecked {
-    image: url(/radio-buttons/radio-unchecked.svg);
+    image: url(/assets/radio-buttons/radio-unchecked.svg);
 }

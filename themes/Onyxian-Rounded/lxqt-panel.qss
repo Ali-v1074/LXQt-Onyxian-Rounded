@@ -237,11 +237,11 @@ LXQtPanel[position="Right"] #QuickLaunch QToolButton:pressed {
 }
 
 #Spacer[type="lined"] {
-    background-image: url(/spacer-plugin/spacer-line.svg);
+    background-image: url(/assets/spacer-plugin/spacer-line.svg);
 }
 
 #Spacer[type="dotted"] {
-    background-image: url(/spacer-plugin/spacer-dots.svg);
+    background-image: url(/assets/spacer-plugin/spacer-dots.svg);
 }
 
 #Spacer[orientation="horizontal"] {
@@ -320,16 +320,16 @@ QMenu::indicator {
 }
 
 QMenu::indicator:non-exclusive:checked {
-    image: url(/radio-buttons/radio-checked.svg);
+    image: url(/assets/radio-buttons/radio-checked.svg);
 }
 
 QMenu::indicator:non-exclusive:unchecked {
-    image: url(/radio-buttons/radio-unchecked.svg);
+    image: url(/assets/radio-buttons/radio-unchecked.svg);
 }
 
 /* ----------Fancy Menu---------- */
 #FancyMenu {
-    qproperty-icon: url(/Menu.svg);
+    qproperty-icon: url(/assets/Menu/Menu.svg);
 }
 
 #FancyMenu:hover {
@@ -479,7 +479,7 @@ LXQtFancyMenuWindow {
 
 /* ----------Main menu---------- */
 #MainMenu {
-    qproperty-icon: url(/Menu.svg);
+    qproperty-icon: url(/assets/Menu/Menu.svg);
 }
 
 #MainMenu:hover {
@@ -609,7 +609,7 @@ VolumePopup QSlider::add-page:horizontal {
 
 /* ----------Backlight Plugin---------- */
 #Backlight {
-    qproperty-icon: url(icons/brightness.svg);
+    qproperty-icon: url(/assets/icons/brightness.svg);
 }
 
 #Backlight QToolButton {
@@ -810,11 +810,11 @@ QCalendarWidget #qt_calendar_monthbutton::menu-indicator {
 }
 
 QCalendarWidget #qt_calendar_nextmonth {
-    qproperty-icon: url(calendar-popup/go-next.svg);
+    qproperty-icon: url(/assets/calendar-popup/go-next.svg);
 }
 
 QCalendarWidget #qt_calendar_prevmonth {
-    qproperty-icon: url(calendar-popup/go-previous.svg);
+    qproperty-icon: url(/assets/calendar-popup/go-previous.svg);
 }
 
 QCalendarWidget QSpinBox {

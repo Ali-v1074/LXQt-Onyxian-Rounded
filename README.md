@@ -72,7 +72,7 @@ For the best visual experience, the following setup is recommended:
 <details>
 <summary>LXQt Runner</summary>
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/728d4b09-a700-4a00-9708-49ec039ecbc2" />
+<img width="837" height="566" alt="image" src="https://github.com/user-attachments/assets/bc224b39-330f-4328-8c3d-dae4a4799ee9" />
 
 </details>
 

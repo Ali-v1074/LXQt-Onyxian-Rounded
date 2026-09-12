@@ -380,8 +380,8 @@ LXQtFancyMenuWindow {
     border-radius: 8px;
     margin: 2px 6px;
     padding: 1px 0;
-    min-width: 155px;
-    max-width: 155px;
+    min-width: 145px;
+    max-width: 145px;
     min-height: 25px;
     max-height: 25px;
 }

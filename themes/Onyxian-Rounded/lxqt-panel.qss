@@ -547,6 +547,7 @@ LXQtFancyMenuWindow {
 
 #WingMenuPlugin > QWidget {
     border: 1px solid #393939;
+    border-radius: 16px;
 }
 
 #WingMenuPlugin QLineEdit {

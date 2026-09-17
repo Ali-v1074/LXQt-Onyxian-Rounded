@@ -70,6 +70,13 @@ For the best visual experience, the following setup is recommended:
 </details>
 
 <details>
+<summary>Wing Menu</summary>
+
+<img width="884" height="882" alt="Wing-Menu" src="https://github.com/user-attachments/assets/b77c1ccb-3a7e-4268-9976-1ae88d5a0fbf" />
+
+</details>
+
+<details>
 <summary>LXQt Runner</summary>
 
 <img width="835" height="589" alt="image" src="https://github.com/user-attachments/assets/c67bbcc8-4992-4b11-b6fa-823270c1131a" />

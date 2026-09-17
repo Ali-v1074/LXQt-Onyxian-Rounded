@@ -530,6 +530,147 @@ LXQtFancyMenuWindow {
     border: 1px solid #666666;
 }
 
+/* ----------Wing Menu---------- */
+#WingMenuPlugin {
+    qproperty-icon: url(/assets/Menu/Menu.svg);
+}
+
+#WingMenuPlugin:hover {
+    color: #ffffff;
+    background: #383838;
+    border: 1px solid #666666;
+}
+
+#WingMenuPlugin QWidget {
+    background: #202020;
+}
+
+#WingMenuPlugin > QWidget {
+    border: 1px solid #393939;
+}
+
+#WingMenuPlugin QLineEdit {
+    color: #dedede;
+    background: #2a2a2a;
+    border: 1px solid #393939;
+    border-radius: 16px;
+    margin: 4px 6px;
+    padding: 7px;
+    selection-color: white;
+    selection-background-color: #5a5a5a;
+}
+
+#WingMenuPlugin QStackedWidget QLabel {
+    color: #dedede;
+    background: #2a2a2a;
+}
+
+#WingMenuPlugin #CategoryButton {
+    color: #dedede;
+    background: #2a2a2a;
+    border: 1px solid #393939;
+    border-radius: 16px;
+    margin: 4px 6px;
+    padding: 0 7px;
+}
+
+#WingMenuPlugin #CategoryButton:checked {
+    color: #dedede;
+    background: #474646;
+    border: 1px solid #666666;
+}
+
+#WingMenuPlugin #CategoryButton:hover:!checked {
+    color: #ffffff;
+    background: #383838;
+    border: 1px solid #666666;
+}
+
+#WingMenuPlugin #CategoryButton:hover:checked {
+    color: #ffffff;
+    background: #585858;
+    border: 1px solid #888888;
+}
+
+#WingMenuPlugin #CategoryButton:pressed:!checked {
+    color: #dedede;
+    background: #303030;
+    border: 1px solid #4a4a4a;
+}
+
+#WingMenuPlugin #CategoryButton:pressed:checked {
+    color: #dedede;
+    background: #3c3c3c;
+    border: 1px solid #555555;
+}
+
+#WingMenuPlugin QToolButton {
+    background: #2a2a2a;
+    border: 1px solid #393939;
+    border-radius: 16px;
+    margin: 4px;
+    padding: 0 7px;
+}
+
+#WingMenuPlugin QToolButton:hover {
+    background: #383838;
+    border: 1px solid #666666;
+}
+
+#WingMenuPlugin QToolButton:pressed {
+    background: #303030;
+    border: 1px solid #4a4a4a;
+}
+
+#WingMenuPlugin ApplicationsView {
+    color: #dedede;
+    background: #2a2a2a;
+    border: 1px solid #393939;
+    border-radius: 16px;
+    margin: 4px 6px;
+    padding: 7px;
+}
+
+#WingMenuPlugin ApplicationsView::item {
+    color: #dedede;
+    background: #202020;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin: 4px 6px;
+    padding: 7px;
+}
+
+#WingMenuPlugin ApplicationsView::item:hover {
+    color: #ffffff;
+    background: #383838;
+    border: 1px solid #666666;
+}
+
+#WingMenuPlugin QScrollBar:vertical {
+    margin: 5px 2px;
+    width: 12px;
+}
+
+#WingMenuPlugin QScrollBar::handle:vertical {
+    background: #7a7a7a;
+    border: 0;
+    border-radius: 3px;
+    margin: 1px;
+    min-height: 40px;
+}
+
+#WingMenuPlugin QScrollBar::handle:vertical:hover {
+    background: #9b9b9b;
+    margin: 0;
+}
+
+#WingMenuPlugin QScrollBar::add-line:vertical,
+#WingMenuPlugin QScrollBar::sub-line:vertical {
+    background: transparent;
+    border: none;
+    width: 0;
+}
+
 /* ----------Volume plugin---------- */
 VolumePopup {
     background: #202020;

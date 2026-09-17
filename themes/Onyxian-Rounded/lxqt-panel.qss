@@ -575,13 +575,13 @@ LXQtFancyMenuWindow {
 }
 
 #WingMenuPlugin #CategoryButton:checked {
-    color: #dedede;
+    color: #ffffff;
     background: #474646;
     border: 1px solid #666666;
 }
 
 #WingMenuPlugin #CategoryButton:hover:!checked {
-    color: #ffffff;
+    color: #dedede;
     background: #383838;
     border: 1px solid #666666;
 }

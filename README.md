@@ -84,13 +84,6 @@ For the best visual experience, the following setup is recommended:
 </details>
 
 <details>
-<summary>Volume Popup</summary>
-
-<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/0bcdf3ab-a25f-4a30-aa18-c8114edfa68a" />
-
-</details>
-
-<details>
 <summary>Backlight</summary>
 
 <img width="512" height="355" alt="image" src="https://github.com/user-attachments/assets/62fd9946-2ae6-49b1-8cac-50ab7147b770" />
@@ -115,6 +108,6 @@ For the best visual experience, the following setup is recommended:
 <details>
 <summary>LXQt Leave</summary>
 
-<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/505f56c9-ca31-4599-9abc-f3a62f43cd1e" />
+<img width="797" height="634" alt="image" src="https://github.com/user-attachments/assets/f223610c-602b-459d-a53d-56a4ae0b9372" />
 
 </details>

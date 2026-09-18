@@ -57,9 +57,9 @@ For the best visual experience, the following setup is recommended:
 ## 📸 Screenshots
 
 <details>
-<summary>LXQt Panel</summary>
+<summary>Onyxian Rounded</summary>
 
-<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/17c44540-83e8-4068-a039-adaed2b82d30" />
+<img width="1920" height="1080" alt="2026-09-18_21-36" src="https://github.com/user-attachments/assets/f2bad874-5d66-44ad-9c3f-b9dcb6653aa3" />
 
 </details>
 

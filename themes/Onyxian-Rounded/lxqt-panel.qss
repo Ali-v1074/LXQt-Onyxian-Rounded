@@ -76,7 +76,7 @@ LXQtPanelPlugin > QToolButton:pressed {
 }
 
 #DesktopSwitch QToolButton:on {
-    color: #dedede;
+    color: #ffffff;
     background: #5e5e5e;
     border: 1px solid #929292;
 }
@@ -121,7 +121,7 @@ LXQtPanelPlugin > QToolButton:pressed {
     background: transparent;
     border: none;
     margin: 0 2px;
-    padding: 0 7px 0 8px;
+    padding: 0 6px 0 7px;
 }
 
 #QuickLaunch QToolButton:hover {
@@ -202,7 +202,7 @@ LXQtPanel[position="Right"] #QuickLaunch QToolButton:pressed {
 }
 
 #TaskBar QToolButton:on {
-    color: #dedede;
+    color: #ffffff;
     background: #474646;
     border: 1px solid #666666;
 }
@@ -393,7 +393,7 @@ LXQtFancyMenuWindow {
 }
 
 #FancyMenu QListView::item:selected {
-    color: #dedede;
+    color: #ffffff;
     background: #474646;
     border: 1px solid #666666;
 }
@@ -525,7 +525,7 @@ LXQtFancyMenuWindow {
 }
 
 #MainMenu ActionView::item:selected {
-    color: #dedede;
+    color: #ffffff;
     background: #474646;
     border: 1px solid #666666;
 }
@@ -706,7 +706,7 @@ VolumePopup QPushButton:pressed {
 }
 
 VolumePopup QPushButton:on {
-    color: #dedede;
+    color: #ffffff;
     background: #474646;
     border: 1px solid #666666;
 }
@@ -865,6 +865,7 @@ VolumePopup QSlider::add-page:horizontal {
 }
 
 #LXQtMountPopup #NoDiskLabel {
+    color: #dedede;
     margin: 10px;
 }
 

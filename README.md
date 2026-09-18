@@ -27,6 +27,7 @@ Move the `panel.conf` file to:
 If you decide not to use the theme's `panel.conf` file and keep your own `panel.conf` file settings, please ensure the following:
 * If the panel is positioned at the **top or bottom**, ensure the panel height is set to at least **64%**.
 * If the panel is positioned on the **left or right**, ensure the panel width is set to at least **70%**.
+* Ensure the panel **icon size is set to 24px**.
 
 If set lower than these values, the panel will appear compressed or squeezed because the theme elevates the panel slightly above the screen edges.
 

@@ -386,15 +386,15 @@ LXQtFancyMenuWindow {
     max-height: 25px;
 }
 
-#FancyMenu QListView::item:hover {
-    color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
-}
-
 #FancyMenu QListView::item:selected {
     color: #ffffff;
     background: #474646;
+    border: 1px solid #666666;
+}
+
+#FancyMenu QListView::item:hover {
+    color: #ffffff;
+    background: #383838;
     border: 1px solid #666666;
 }
 
@@ -518,15 +518,15 @@ LXQtFancyMenuWindow {
     padding: 4px 3px 4px 10px;
 }
 
-#MainMenu ActionView::item:hover {
-    color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
-}
-
 #MainMenu ActionView::item:selected {
     color: #ffffff;
     background: #474646;
+    border: 1px solid #666666;
+}
+
+#MainMenu ActionView::item:hover {
+    color: #ffffff;
+    background: #383838;
     border: 1px solid #666666;
 }
 
@@ -639,6 +639,12 @@ LXQtFancyMenuWindow {
     border-radius: 8px;
     margin: 4px 6px;
     padding: 7px;
+}
+
+#WingMenuPlugin ApplicationsView::item:selected {
+    color: #ffffff;
+    background: #474646;
+    border: 1px solid #666666;
 }
 
 #WingMenuPlugin ApplicationsView::item:hover {

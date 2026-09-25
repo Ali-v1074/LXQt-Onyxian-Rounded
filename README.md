@@ -37,7 +37,7 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 * Choose **Onyxian-Rounded** from the list.
 
 **Additional Recommended Adjustments:**
-* **Task Manager:** After adjusting the panel size, it is recommended to modify the Task Manager settings to **Width: 55px** and **Height: 50px**. Also, set the display option to **Only icon** instead of **Icon and text**.
+* **Task Manager:** After adjusting the panel size, it is recommended to modify the Task Manager settings to **Width: 49px** and **Height: 47px**. Also, set the display option to **Only icon** instead of **Icon and text**.
 * **Status Notifier:** It is recommended to hide icons you don't need in the Status Notifier to save panel space and keep the panel looking clean and uncluttered.
 
 ---

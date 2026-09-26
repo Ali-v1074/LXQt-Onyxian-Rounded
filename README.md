@@ -59,44 +59,39 @@ For the best visual experience, the following setup is recommended:
 <details>
 <summary>LXQt Panel</summary>
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/15cc888b-5ce8-4a17-b54b-a4c6c4512045" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/731e52c0-d4fb-4994-a5be-681d78994b40" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce1e62f5-494a-4f4b-b2b7-f7b8e15ddc5e" />
+------
 
-</details>
-
-<details>
-<summary>Fancy Menu</summary>
-
-<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/3b989416-ee70-4571-995f-111f12065945" />
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/3173b44a-6b14-4c8e-99fc-08519c326bcd" />
 
 </details>
 
 <details>
 <summary>Wing Menu</summary>
 
-<img width="884" height="882" alt="Wing-Menu" src="https://github.com/user-attachments/assets/b77c1ccb-3a7e-4268-9976-1ae88d5a0fbf" />
+<img width="794" height="826" alt="3" src="https://github.com/user-attachments/assets/fb25b33f-93d3-4e49-80a2-2441b3a373bb" />
 
 </details>
 
 <details>
 <summary>LXQt Runner</summary>
 
-<img width="835" height="589" alt="image" src="https://github.com/user-attachments/assets/c67bbcc8-4992-4b11-b6fa-823270c1131a" />
+<img width="778" height="549" alt="4" src="https://github.com/user-attachments/assets/25a41dfd-68b4-4c99-af97-7b5a2b1fc099" />
 
 </details>
 
 <details>
-<summary>Backlight</summary>
+<summary>Plugins</summary>
 
-<img width="512" height="355" alt="image" src="https://github.com/user-attachments/assets/62fd9946-2ae6-49b1-8cac-50ab7147b770" />
+<img width="506" height="404" alt="5" src="https://github.com/user-attachments/assets/de438853-cdc3-4f3c-ab1a-2b6a1ba4225b" />
 
 </details>
 
 <details>
 <summary>QMenu</summary>
 
-<img width="421" height="580" alt="QMenu" src="https://github.com/user-attachments/assets/20177333-d6a7-4cef-b672-bcc780cefe68" />
+<img width="410" height="602" alt="6" src="https://github.com/user-attachments/assets/85f5e490-f23d-4f21-bc38-9dd7082eab41" />
 
 </details>
 
@@ -111,6 +106,6 @@ For the best visual experience, the following setup is recommended:
 <details>
 <summary>LXQt Leave</summary>
 
-<img width="797" height="634" alt="image" src="https://github.com/user-attachments/assets/f223610c-602b-459d-a53d-56a4ae0b9372" />
+<img width="928" height="767" alt="8" src="https://github.com/user-attachments/assets/f4c2600b-5b67-4186-92c1-3f8d72c1fcc8" />
 
 </details>

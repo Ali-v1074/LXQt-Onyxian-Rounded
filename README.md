@@ -47,7 +47,7 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 For the best visual experience, the following setup is recommended:
 
 * **Kvantum Engine:** Highly recommended for widget styling (buttons, menus, etc.).
-* **Kvantum Theme:** Choose [Orchis-solid kvantum](https://store.kde.org/p/1458909/).
+* **Kvantum Theme:** Choose [Orchis-solid kvantum](https://store.kde.org/p/1458909/), [Orchis-solid kvantum-git](https://github.com/vinceliuice/Orchis-kde).
 * **Icon Theme:** Use [Papirus-Dark](https://store.kde.org/p/1166289/).
 * **Cursor Theme:** Choose [Polarnight Cursors](https://store.kde.org/p/1615757).
 * **Wallpaper:** A dark wallpaper is recommended, or you can use the default wallpaper bundled with the theme.

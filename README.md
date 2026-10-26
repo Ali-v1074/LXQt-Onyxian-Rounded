@@ -49,14 +49,18 @@ For the best visual experience, the following setup is recommended:
 * **Kvantum Engine:** Highly recommended for widget styling (buttons, menus, etc.).
 
 * **Kvantum Theme:** Choose [Orchis-solid kvantum](https://store.kde.org/p/1458909/), [Orchis-solid kvantum-git](https://github.com/vinceliuice/Orchis-kde).
-  * **Note:** If you do not want to use the recommended theme, make sure that **Layout spacing** and **Layout margin** are set to **3px** or **4px** in Kvantum Manager.
-  
-  <details>
-  <summary>View Kvantum Settings Screenshot</summary>
 
-  <img width="1012" height="947" alt="Kvantum" src="https://github.com/user-attachments/assets/4b4f2601-811f-4bf7-a35c-d40cf1b85aa7" />
-
-  </details>
+  > **Note:** If you do not want to use the recommended theme, make sure to configure the following settings in **Kvantum Manager**:
+  > * Set **Layout spacing** and **Layout margin** to **3px** or **4px**.
+  > * Set **Minimum scrollbar length** to **60px**.
+  > * It is recommended to set **Tooltip delay** to **1000 ms** or **1500 ms**.
+  > 
+  > <details>
+  > <summary>View Kvantum Settings Screenshot</summary>
+  > 
+  > <img width="912" height="935" alt="Kvantum-Manager" src="https://github.com/user-attachments/assets/6c706aec-d77c-4b87-9a24-385c60834529" />
+  > 
+  > </details>
 
 * **Icon Theme:** Use [Papirus-Dark](https://store.kde.org/p/1166289/).
 

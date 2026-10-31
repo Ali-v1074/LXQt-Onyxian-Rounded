@@ -42,9 +42,7 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 
 ---
 
-## 💡 Recommendations
-
-For the best visual experience, the following setup is recommended:
+## 📋 Requirements
 
 * **Kvantum Engine:** Highly recommended for widget styling (buttons, menus, etc.).
 
@@ -62,11 +60,9 @@ For the best visual experience, the following setup is recommended:
   > 
   > </details>
 
-* **Icon Theme:** Use [Papirus-Dark](https://store.kde.org/p/1166289/).
+* **Font:** Noto Sans.
 
-* **Cursor Theme:** Choose [Polarnight Cursors](https://store.kde.org/p/1615757).
-
-* **Wallpaper:** A dark wallpaper is recommended, or you can use the default wallpaper bundled with the theme.
+* **Wallpaper:** A solid black wallpaper is required to ensure the panel border is clearly visible. You can use the default wallpaper bundled with the theme.
 
 ---
 

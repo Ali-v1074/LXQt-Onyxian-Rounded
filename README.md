@@ -44,9 +44,9 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 
 ## 📋 Requirements
 
-* **Kvantum Engine:** Highly recommended for widget styling (buttons, menus, etc.).
+* **Kvantum Engine:** Required for widget styling (buttons, menus, etc.).
 
-* **Kvantum Theme:** Choose [Orchis-solid kvantum](https://store.kde.org/p/1458909/), [Orchis-solid kvantum-git](https://github.com/vinceliuice/Orchis-kde).
+* **Kvantum Theme:** Choose [Orchis-solid kvantum (OpenDesktop)](https://store.kde.org/p/1458909/), [Orchis-solid kvantum (GitHub)](https://github.com/vinceliuice/Orchis-kde).
 
   > **Note:** If you do not want to use the recommended theme, make sure to configure the following settings in **Kvantum Manager**:
   > * Set **Layout spacing** and **Layout margin** to **3px** or **4px**.

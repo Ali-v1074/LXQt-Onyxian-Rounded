@@ -25,8 +25,7 @@ Move the `panel.conf` file to:
 #### ⚙️ Custom Panel Setup Guidelines
 
 If you decide not to use the theme's `panel.conf` file and keep your own `panel.conf` file settings, please ensure the following:
-* If the panel is positioned at the **top or bottom**, ensure the panel height is set to at least **63px**.
-* If the panel is positioned on the **left or right**, ensure the panel width is set to at least **65px**.
+* Regardless of the panel position (**top, bottom, left, or right**), ensure the panel size is set to at least **63px**.
 * Ensure the panel **icon size is set to 22px**.
 
 If set lower than these values, the panel will appear compressed or squeezed because the theme elevates the panel slightly above the screen edges.
@@ -37,7 +36,7 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 * Choose **Onyxian-Rounded** from the list.
 
 **Additional Recommended Adjustments:**
-* **Task Manager:** After adjusting the panel size, it is recommended to modify the Task Manager settings to **Width: 49px** and **Height: 47px**. Also, set the display option to **Only icon** instead of **Icon and text**.
+* **Task Manager:** After adjusting the panel size, it is recommended to modify the Task Manager settings to **Width: 49px** and **Height: 45px**. Also, set the display option to **Only icon** instead of **Icon and text**.
 * **Status Notifier:** It is recommended to hide icons you don't need in the Status Notifier to save panel space and keep the panel looking clean and uncluttered.
 
 ---

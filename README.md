@@ -59,7 +59,7 @@ If set lower than these values, the panel will appear compressed or squeezed bec
   > 
   > </details>
 
-* **Font:** Noto Sans.
+* **Font:** Make sure **Noto Sans** is selected in the LXQt Appearance settings (`lxqt-config-appearance`).
 
 * **Wallpaper:** A solid black wallpaper is required to ensure the panel border is clearly visible. You can use the default wallpaper bundled with the theme.
 
@@ -70,53 +70,41 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 <details>
 <summary>LXQt Panel</summary>
 
-<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/731e52c0-d4fb-4994-a5be-681d78994b40" />
-
-------
-
-<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/3173b44a-6b14-4c8e-99fc-08519c326bcd" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/ee95f5f7-9d9f-409a-8012-141e15f560ce" />
 
 </details>
 
 <details>
 <summary>Wing Menu</summary>
 
-<img width="794" height="826" alt="3" src="https://github.com/user-attachments/assets/fb25b33f-93d3-4e49-80a2-2441b3a373bb" />
+<img width="760" height="797" alt="2" src="https://github.com/user-attachments/assets/8a90da1e-c51f-4331-9aad-8d38b0a7cc15" />
 
 </details>
 
 <details>
 <summary>LXQt Runner</summary>
 
-<img width="778" height="549" alt="4" src="https://github.com/user-attachments/assets/25a41dfd-68b4-4c99-af97-7b5a2b1fc099" />
+<img width="532" height="478" alt="3" src="https://github.com/user-attachments/assets/976a4de4-873e-4f54-be88-cca8357b643d" />
 
 </details>
 
 <details>
 <summary>Plugins</summary>
 
-<img width="506" height="404" alt="5" src="https://github.com/user-attachments/assets/de438853-cdc3-4f3c-ab1a-2b6a1ba4225b" />
+<img width="371" height="566" alt="4" src="https://github.com/user-attachments/assets/96e839ae-44d1-44ff-a165-38b7b2aba57d" />
 
 </details>
-
-<details>
-<summary>QMenu</summary>
-
-<img width="410" height="602" alt="6" src="https://github.com/user-attachments/assets/85f5e490-f23d-4f21-bc38-9dd7082eab41" />
-
-</details>
-
 
 <details>
 <summary>LXQt Notifications</summary>
 
-<img width="354" height="363" alt="5" src="https://github.com/user-attachments/assets/1548ca0a-adef-4119-8bdc-126653f9b05c" />
+<img width="359" height="329" alt="5" src="https://github.com/user-attachments/assets/08a6e4c1-9696-4c1b-ae38-01a13662e273" />
 
 </details>
 
 <details>
 <summary>LXQt Leave</summary>
 
-<img width="928" height="767" alt="8" src="https://github.com/user-attachments/assets/f4c2600b-5b67-4186-92c1-3f8d72c1fcc8" />
+<img width="679" height="610" alt="6" src="https://github.com/user-attachments/assets/5d8c01a5-2590-4888-9c04-2b6fe0cf498f" />
 
 </details>

@@ -105,6 +105,12 @@ QMenu::icon {
     padding-left: 12px;
 }
 
+QMenu::separator {
+    background: #4c4c4c;
+    margin: 5px;
+    height: 1px;
+}
+
 QMenu::item {
     color: #dedede;
     background: #2a2a2a;

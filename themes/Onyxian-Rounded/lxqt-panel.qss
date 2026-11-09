@@ -50,7 +50,7 @@ LXQtPanelPlugin > QToolButton {
     border: 1px solid #393939;
     border-radius: 17px;
     margin: 5px;
-    padding: 7px 6px;
+    padding: 7px 5px;
 }
 
 Plugin > QToolButton:hover,

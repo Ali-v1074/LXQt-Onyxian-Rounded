@@ -26,7 +26,7 @@ Move the `panel.conf` file to:
 
 If you decide not to use the theme's `panel.conf` file and keep your own `panel.conf` file settings, please ensure the following:
 * Regardless of the panel position (**top, bottom, left, or right**), ensure the panel size is set to at least **63px**.
-* Ensure the panel **icon size is set to 22px**.
+* Ensure the panel **icon size is set to either 22px or 24px**, depending on your preference.
 
 If set lower than these values, the panel will appear compressed or squeezed because the theme elevates the panel slightly above the screen edges.
 
@@ -36,7 +36,7 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 * Choose **Onyxian-Rounded** from the list.
 
 **Additional Recommended Adjustments:**
-* **Task Manager:** After adjusting the panel size, it is recommended to modify the Task Manager settings to **Width: 47px** and **Height: 45px**. Also, set the display option to **Only icon** instead of **Icon and text**.
+* **Task Manager:** After adjusting the panel size, it is recommended to modify the Task Manager settings to **Width: 47px or 49px**, depending on your preference, and **Height: 45px**. Also, set the display option to **Only icon** instead of **Icon and text**.
 * **Status Notifier:** It is recommended to hide icons you don't need in the Status Notifier to save panel space and keep the panel looking clean and uncluttered.
 
 ---
@@ -70,14 +70,14 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 <details>
 <summary>LXQt Panel</summary>
 
-<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/ee95f5f7-9d9f-409a-8012-141e15f560ce" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/57adf78b-6246-4184-9fb3-5dbc03fad3d3" />
 
 </details>
 
 <details>
 <summary>Wing Menu</summary>
 
-<img width="760" height="797" alt="2" src="https://github.com/user-attachments/assets/8a90da1e-c51f-4331-9aad-8d38b0a7cc15" />
+<img width="764" height="812" alt="2" src="https://github.com/user-attachments/assets/3177c49e-5901-4d5c-9533-06c7114ba501" />
 
 </details>
 
@@ -91,7 +91,7 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 <details>
 <summary>Plugins</summary>
 
-<img width="371" height="566" alt="4" src="https://github.com/user-attachments/assets/96e839ae-44d1-44ff-a165-38b7b2aba57d" />
+<img width="390" height="562" alt="image" src="https://github.com/user-attachments/assets/b5637a63-4ced-4b04-b9b9-24314c8311de" />
 
 </details>
 

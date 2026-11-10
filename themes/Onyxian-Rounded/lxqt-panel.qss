@@ -516,7 +516,7 @@ LXQtFancyMenuWindow {
 }
 
 #FancyMenu QScrollBar::handle:vertical:hover {
-    background: #9b9b9b;
+    background: #c1c1c1;
     border-radius: 4px;
     margin: 0;
 }
@@ -591,7 +591,7 @@ LXQtFancyMenuWindow {
 }
 
 #MainMenu QScrollBar::handle:vertical:hover {
-    background: #9b9b9b;
+    background: #c1c1c1;
     border-radius: 4px;
     margin: 0;
 }
@@ -748,7 +748,7 @@ LXQtFancyMenuWindow {
 }
 
 #WingMenuPlugin QScrollBar::handle:vertical:hover {
-    background: #9b9b9b;
+    background: #c1c1c1;
     border-radius: 4px;
     margin: 0;
 }
@@ -878,7 +878,7 @@ VolumePopup[layoutDirection="1"] QSlider::add-page:horizontal {
 }
 
 #Volume QScrollBar::handle:vertical:hover {
-    background: #9b9b9b;
+    background: #c1c1c1;
     border-radius: 4px;
     margin: 0;
 }

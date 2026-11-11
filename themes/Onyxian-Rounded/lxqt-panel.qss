@@ -1113,6 +1113,8 @@ QCalendarWidget QSpinBox {
     qproperty-alignment: AlignHCenter;
     selection-color: #ffffff;
     selection-background-color: #5a5a5a;
+    min-width: 103px;
+    max-width: 103px;
 }
 
 QCalendarWidget QSpinBox::up-button {

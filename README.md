@@ -49,13 +49,12 @@ If set lower than these values, the panel will appear compressed or squeezed bec
 
   > **Note:** If you do not want to use the recommended theme, make sure to configure the following settings in **Kvantum Manager**:
   > * Set **Layout spacing** and **Layout margin** to **3px** or **4px**.
-  > * Set **Spin button width** to **24px**.
   > * It is recommended to set **Tooltip delay** to **1000 ms** or **1500 ms**.
   > 
   > <details>
   > <summary>View Kvantum Settings Screenshot</summary>
   > 
-  > <img width="844" height="913" alt="kvantum" src="https://github.com/user-attachments/assets/dc109335-c89d-434b-9439-6d9eff8c7083" />
+  > <img width="841" height="915" alt="image" src="https://github.com/user-attachments/assets/ca9ac24f-76d6-4754-93d9-809ae2bf2ac4" />
   > 
   > </details>
 

@@ -418,7 +418,7 @@ LXQtFancyMenuWindow {
     border-radius: 17px;
     margin: 10px 7px;
     padding: 6px 8px;
-    selection-color: white;
+    selection-color: #ffffff;
     selection-background-color: #5a5a5a;
 }
 
@@ -540,7 +540,7 @@ LXQtFancyMenuWindow {
     border-radius: 17px;
     margin: 10px 7px;
     padding: 5px 7px;
-    selection-color: white;
+    selection-color: #ffffff;
     selection-background-color: #5a5a5a;
 }
 
@@ -625,7 +625,7 @@ LXQtFancyMenuWindow {
     border-radius: 17px;
     margin: 4px 6px;
     padding: 7px;
-    selection-color: white;
+    selection-color: #ffffff;
     selection-background-color: #5a5a5a;
 }
 
@@ -1074,6 +1074,7 @@ QCalendarWidget QAbstractItemView:enabled {
     background: #202020;
     border: 1px solid #393939;
     selection-color: #ffffff;
+    selection-background-color: #4285f4;
 }
 
 QCalendarWidget QWidget {
@@ -1105,9 +1106,35 @@ QCalendarWidget[layoutDirection="1"] #qt_calendar_prevmonth {
 }
 
 QCalendarWidget QSpinBox {
-    background: #2a2a2a;
+    background: transparent;
     border: 1px solid #393939;
+    border-radius: 16px;
     margin: 4px;
+    qproperty-alignment: AlignHCenter;
+    selection-color: #ffffff;
+    selection-background-color: #5a5a5a;
+}
+
+QCalendarWidget QSpinBox::up-button {
+    width: 17px;
+    height: 22px;
+    subcontrol-position: right center;
+    right: 2px;
+}
+
+QCalendarWidget QSpinBox::up-arrow {
+    image: url(/assets/navigation/plus.svg);
+}
+
+QCalendarWidget QSpinBox::down-button {
+    width: 17px;
+    height: 23px;
+    subcontrol-position: right center;
+    right: 25px;
+}
+
+QCalendarWidget QSpinBox::down-arrow {
+    image: url(/assets/navigation/minus.svg);
 }
 
 /* ---------- Show Desktop ---------- */
@@ -1123,6 +1150,11 @@ QCalendarWidget QSpinBox {
 /* ---------- Directory Menu ---------- */
 #DirectoryMenu {
     qproperty-icon: url(/assets/icons/directory-menu.svg);
+}
+
+/* ---------- CPU monitor ---------- */
+#LXQtCpuLoad {
+    qproperty-fontColor: #dedede;
 }
 
 /* ---------- SysStat ---------- */

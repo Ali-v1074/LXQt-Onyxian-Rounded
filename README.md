@@ -2,52 +2,43 @@
 
 # Onyxian-Rounded LXQt Theme
 
-A modern and sleek theme for the LXQt desktop environment.
-
----
-
 ## 🛠️ Installation Instructions
 
-### 1. Install the Theme
-Move the `themes` folder to the following path:
-`~/.local/share/lxqt/`
+### 1. Install Theme and Color Palettes
 
-### 2. Install the Color Palettes
-Move the `palettes` folder to the following path:
-`~/.local/share/lxqt/`
+Move the `themes` and `palettes` folders to the following path: `~/.local/share/lxqt/`
 
-### 3. Configure the Panel (Optional Step)
+### 2. Configure the Panel (Optional Step)
 Move the `panel.conf` file to:
 `~/.config/lxqt/`
 
-> **Note:** This file is optional; you can keep your own `panel.conf` file settings if you prefer.
-
-#### ⚙️ Custom Panel Setup Guidelines
-
-If you decide not to use the theme's `panel.conf` file and keep your own `panel.conf` file settings, please ensure the following:
-* Regardless of the panel position (**top, bottom, left, or right**), ensure the panel size is set to at least **63px**.
-* Ensure the panel **icon size is set to either 22px or 24px**, depending on your preference.
-
-If set lower than these values, the panel will appear compressed or squeezed because the theme elevates the panel slightly above the screen edges.
-
-### 4. Enable the Theme
+### 3. Enable the Theme
 * Open **Appearance** settings.
 * From the sidebar menu, select **LXQt Theme**.
 * Choose **Onyxian-Rounded** from the list.
 
+---
+
+### Panel Configuration Guidelines
+
+If you decide not to use the theme's `panel.conf` file and keep your own settings, please ensure the following:
+
+- **Panel Size:** Set the panel size to at least **63px**, regardless of its position (**top, bottom, left, or right**).
+- **Icon Size:** Set the panel icon size to **22px or 24px**, depending on your preference.
+
+>**Note:** Setting the panel size or icon size below the recommended values may cause the panel to appear compressed because the theme elevates it slightly above the screen edges.
+
 **Additional Recommended Adjustments:**
-* **Task Manager:** After adjusting the panel size, it is recommended to modify the Task Manager settings to **Width: 47px or 49px**, depending on your preference, and **Height: 45px**. Also, set the display option to **Only icon** instead of **Icon and text**.
-* **Status Notifier:** It is recommended to hide icons you don't need in the Status Notifier to save panel space and keep the panel looking clean and uncluttered.
+
+- **Task Manager:** Set the width to **47px or 49px** and the height to **45px**. Also, select **Only icon** instead of **Icon and text**.
+- **Status Notifier:** Hide unnecessary icons to save panel space and maintain a clean, uncluttered appearance.
 
 ---
 
 ## 📋 Requirements
 
-* **Kvantum Engine:** Required for widget styling (buttons, menus, etc.).
-
-* **Kvantum Theme:** Choose [Orchis-solid kvantum (OpenDesktop)](https://store.kde.org/p/1458909/), [Orchis-solid kvantum (GitHub)](https://github.com/vinceliuice/Orchis-kde).
-
-  > **Note:** If you do not want to use the recommended theme, make sure to configure the following settings in **Kvantum Manager**:
+* **Kvantum Engine:** Specifically required.
+  > **Note:** Make sure the following settings are configured in **Kvantum Manager**:
   > * Set **Layout spacing** and **Layout margin** to **3px** or **4px**.
   > * It is recommended to set **Tooltip delay** to **1000 ms** or **1500 ms**.
   > 

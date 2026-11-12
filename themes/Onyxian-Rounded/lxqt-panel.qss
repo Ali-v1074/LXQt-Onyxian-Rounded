@@ -63,8 +63,8 @@ LXQtPanel[position="Right"] Plugin > QToolButton:hover,
 LXQtPanel[position="Right"] Plugin > QWidget > QToolButton:hover,
 LXQtPanel[position="Right"] LXQtPanelPlugin > QToolButton:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 Plugin > QToolButton:pressed,
@@ -123,8 +123,8 @@ LXQtPanel[position="Right"] #DesktopSwitch {
 LXQtPanel[position="Left"] #DesktopSwitch QToolButton:hover,
 LXQtPanel[position="Right"] #DesktopSwitch QToolButton:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #DesktopSwitch QToolButton:pressed,
@@ -211,8 +211,8 @@ LXQtPanel[position="Right"] #QuickLaunch {
 #QuickLaunch QToolButton:hover,
 LXQtPanel[position="Left"] #QuickLaunch QToolButton:hover,
 LXQtPanel[position="Right"] #QuickLaunch QToolButton:hover {
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #QuickLaunch QToolButton:pressed,
@@ -256,8 +256,8 @@ LXQtPanel[position="Right"] #QuickLaunch QToolButton {
 
 #TaskBar QToolButton:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #TaskBar QToolButton:pressed {
@@ -268,20 +268,20 @@ LXQtPanel[position="Right"] #QuickLaunch QToolButton {
 
 #TaskBar QToolButton:on {
     color: #ffffff;
-    background: #474646;
-    border: 1px solid #666666;
+    background: #555555;
+    border: 1px solid #838383;
 }
 
 #TaskBar QToolButton:hover:on {
     color: #ffffff;
-    background: #585858;
-    border: 1px solid #888888;
+    background: #656565;
+    border: 1px solid #a2a2a2;
 }
 
 #TaskBar QToolButton:on:pressed {
     color: #dedede;
-    background: #3c3c3c;
-    border: 1px solid #555555;
+    background: #484848;
+    border: 1px solid #6a6a6a;
 }
 
 #TaskBar QToolButton[urgent="true"] {
@@ -298,6 +298,7 @@ LXQtPanel[position="Right"] #QuickLaunch QToolButton {
 
 #TaskBar LXQtGroupPopup QToolButton {
     border-radius: 16px;
+    padding: 0;
 }
 
 /* ---------- Spacer ---------- */
@@ -368,8 +369,8 @@ QMenu::item {
 
 QMenu::item:selected {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 QMenu::item:disabled {
@@ -454,15 +455,15 @@ LXQtFancyMenuWindow {
 #FancyMenu #CategoryView::item:selected,
 #FancyMenu #AppView::item:selected {
     color: #ffffff;
-    background: #474646;
-    border: 1px solid #666666;
+    background: #555555;
+    border: 1px solid #838383;
 }
 
 #FancyMenu #CategoryView::item:hover,
 #FancyMenu #AppView::item:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #FancyMenu QLabel {
@@ -491,8 +492,8 @@ LXQtFancyMenuWindow {
 }
 
 #FancyMenu QToolButton:hover {
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #FancyMenu QToolButton:pressed {
@@ -565,14 +566,14 @@ LXQtFancyMenuWindow {
 
 #MainMenu ActionView::item:selected {
     color: #ffffff;
-    background: #474646;
-    border: 1px solid #666666;
+    background: #555555;
+    border: 1px solid #838383;
 }
 
 #MainMenu ActionView::item:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #MainMenu QScrollBar:vertical {
@@ -652,20 +653,20 @@ LXQtFancyMenuWindow {
 
 #WingMenuPlugin #CategoryButton:checked {
     color: #ffffff;
-    background: #474646;
-    border: 1px solid #666666;
+    background: #555555;
+    border: 1px solid #838383;
 }
 
 #WingMenuPlugin #CategoryButton:hover:!checked {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #WingMenuPlugin #CategoryButton:hover:checked {
     color: #ffffff;
-    background: #585858;
-    border: 1px solid #888888;
+    background: #656565;
+    border: 1px solid #a2a2a2;
 }
 
 #WingMenuPlugin #CategoryButton:pressed:!checked {
@@ -676,26 +677,8 @@ LXQtFancyMenuWindow {
 
 #WingMenuPlugin #CategoryButton:pressed:checked {
     color: #dedede;
-    background: #3c3c3c;
-    border: 1px solid #555555;
-}
-
-#WingMenuPlugin QToolButton {
-    background: #2a2a2a;
-    border: 1px solid #393939;
-    border-radius: 17px;
-    margin: 4px;
-    padding: 5px 7px;
-}
-
-#WingMenuPlugin QToolButton:hover {
-    background: #383838;
-    border: 1px solid #666666;
-}
-
-#WingMenuPlugin QToolButton:pressed {
-    background: #303030;
-    border: 1px solid #4a4a4a;
+    background: #484848;
+    border: 1px solid #6a6a6a;
 }
 
 #WingMenuPlugin ApplicationsView {
@@ -722,14 +705,32 @@ LXQtFancyMenuWindow {
 
 #WingMenuPlugin ApplicationsView::item:selected {
     color: #ffffff;
-    background: #474646;
-    border: 1px solid #666666;
+    background: #555555;
+    border: 1px solid #838383;
 }
 
 #WingMenuPlugin ApplicationsView::item:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
+}
+
+#WingMenuPlugin QToolButton {
+    background: #2a2a2a;
+    border: 1px solid #393939;
+    border-radius: 17px;
+    margin: 4px;
+    padding: 5px 7px;
+}
+
+#WingMenuPlugin QToolButton:hover {
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
+}
+
+#WingMenuPlugin QToolButton:pressed {
+    background: #303030;
+    border: 1px solid #4a4a4a;
 }
 
 #WingMenuPlugin QScrollBar:vertical {
@@ -766,6 +767,10 @@ VolumePopup {
     border: 1px solid #393939;
 }
 
+VolumePopup QWidget {
+    background: #202020;
+}
+
 VolumePopup QScrollArea {
     margin: 0 7px;
 }
@@ -795,8 +800,8 @@ VolumePopup QPushButton:focus {
 VolumePopup QPushButton:hover,
 VolumePopup QPushButton#MixerLink:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 VolumePopup QPushButton:pressed,
@@ -808,20 +813,20 @@ VolumePopup QPushButton#MixerLink:pressed {
 
 VolumePopup QPushButton:on {
     color: #ffffff;
-    background: #474646;
-    border: 1px solid #666666;
+    background: #555555;
+    border: 1px solid #838383;
 }
 
 VolumePopup QPushButton:hover:on {
     color: #ffffff;
-    background: #585858;
-    border: 1px solid #888888;
+    background: #656565;
+    border: 1px solid #a2a2a2;
 }
 
 VolumePopup QPushButton:on:pressed {
     color: #dedede;
-    background: #3c3c3c;
-    border: 1px solid #555555;
+    background: #484848;
+    border: 1px solid #6a6a6a;
 }
 
 VolumePopup QSlider::groove:horizontal {
@@ -895,6 +900,12 @@ VolumePopup[layoutDirection="1"] QSlider::add-page:horizontal {
     qproperty-icon: url(/assets/icons/brightness.svg);
 }
 
+#Backlight > SliderDialog {
+    background: #202020;
+    border: 1px solid #393939;
+    margin: 0;
+}
+
 #Backlight QToolButton {
     color: #dedede;
     background: #2a2a2a;
@@ -905,19 +916,13 @@ VolumePopup[layoutDirection="1"] QSlider::add-page:horizontal {
 }
 
 #Backlight QToolButton:hover {
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #Backlight QToolButton:pressed {
     background: #303030;
     border: 1px solid #4a4a4a;
-}
-
-#Backlight > SliderDialog {
-    background: #202020;
-    border: 1px solid #393939;
-    margin: 0;
 }
 
 #Backlight > SliderDialog > QSlider::groove:vertical {
@@ -965,8 +970,8 @@ VolumePopup[layoutDirection="1"] QSlider::add-page:horizontal {
 }
 
 #LXQtMountPopup > MenuDiskItem > QToolButton:hover {
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #LXQtMountPopup > MenuDiskItem > QToolButton:pressed {
@@ -1005,8 +1010,8 @@ LXQtPanel[position="Left"] #ColorPickerPickerButton:hover,
 LXQtPanel[position="Left"] #ColorPickerColorButton:hover,
 LXQtPanel[position="Right"] #ColorPickerPickerButton:hover,
 LXQtPanel[position="Right"] #ColorPickerColorButton:hover {
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #ColorPickerPickerButton:pressed,
@@ -1043,8 +1048,8 @@ LXQtPanel[position="Right"] #ColorPickerColorButton {
 
 #WorldClockContent:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #WorldClock QToolButton {
@@ -1058,8 +1063,8 @@ LXQtPanel[position="Right"] #ColorPickerColorButton {
 
 #WorldClock QToolButton:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #WorldClock QToolButton:pressed {

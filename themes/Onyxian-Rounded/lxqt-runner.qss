@@ -12,30 +12,31 @@ QToolButton::menu-indicator {
     image: none;
 }
 
-#closeButton,
-#actionButton {
+#closeButton {
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 17px;
     margin: 4px 6px;
     padding: 7px 8px;
     qproperty-iconSize: 16px;
-}
-
-#closeButton {
     qproperty-icon: url(/assets/navigation/window-close.svg);
 }
 
 #actionButton {
+    background: #2a2a2a;
+    border: 1px solid #393939;
+    border-radius: 17px;
+    margin: 4px 6px;
     padding: 7px 9px;
+    qproperty-iconSize: 16px;
     qproperty-icon: url(/assets/navigation/go-down.svg);
 }
 
 #closeButton:hover,
 #actionButton:hover {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #closeButton:pressed,
@@ -52,7 +53,7 @@ QToolButton::menu-indicator {
     border-radius: 17px;
     margin: 2px;
     padding: 6px 8px;
-    selection-color: white;
+    selection-color: #ffffff;
     selection-background-color: #5a5a5a;
 }
 
@@ -63,7 +64,7 @@ QToolButton::menu-indicator {
     border: 1px solid #393939;
     border-radius: 20px;
     padding: 20px;
-    selection-color: white;
+    selection-color: #ffffff;
     alternate-background-color: transparent;
 }
 
@@ -76,18 +77,18 @@ QToolButton::menu-indicator {
 }
 
 #commandList::item:hover {
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 #commandList::item:selected {
-    background: #474646;
-    border: 1px solid #666666;
+    background: #555555;
+    border: 1px solid #838383;
 }
 
 #commandList::item:hover:selected {
-    background: #585858;
-    border: 1px solid #888888;
+    background: #656565;
+    border: 1px solid #a2a2a2;
 }
 
 /* ---------- Menu ---------- */
@@ -123,8 +124,8 @@ QMenu::item {
 
 QMenu::item:selected {
     color: #ffffff;
-    background: #383838;
-    border: 1px solid #666666;
+    background: #3d3d3d;
+    border: 1px solid #7c7c7c;
 }
 
 QMenu::item:pressed {

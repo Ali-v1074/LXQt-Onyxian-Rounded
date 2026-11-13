@@ -768,6 +768,7 @@ VolumePopup {
 }
 
 VolumePopup QWidget {
+    color: #dedede;
     background: #202020;
 }
 
@@ -962,6 +963,7 @@ VolumePopup[layoutDirection="1"] QSlider::add-page:horizontal {
 }
 
 #LXQtMountPopup > MenuDiskItem > QToolButton {
+    color: #dedede;
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 17px;
@@ -970,11 +972,13 @@ VolumePopup[layoutDirection="1"] QSlider::add-page:horizontal {
 }
 
 #LXQtMountPopup > MenuDiskItem > QToolButton:hover {
+    color: #ffffff;
     background: #3d3d3d;
     border: 1px solid #7c7c7c;
 }
 
 #LXQtMountPopup > MenuDiskItem > QToolButton:pressed {
+    color: #dedede;
     background: #303030;
     border: 1px solid #4a4a4a;
 }

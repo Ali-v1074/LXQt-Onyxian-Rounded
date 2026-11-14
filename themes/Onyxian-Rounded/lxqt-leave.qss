@@ -12,6 +12,7 @@ QLabel {
 
 /* ---------- Session Action Buttons ---------- */
 QAbstractItemView {
+    color: #dedede;
     background: #2a2a2a;
     /* note: must use solid color 1px .png image for bg color */
     background-image: url(/assets/lxqt-leave/background.png);
@@ -22,6 +23,7 @@ QAbstractItemView {
 
 /* ---------- Confirmation Dialog Buttons ---------- */
 QToolButton {
+    color: #dedede;
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 10px;

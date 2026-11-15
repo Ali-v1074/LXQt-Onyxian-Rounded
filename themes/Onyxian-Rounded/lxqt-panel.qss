@@ -452,18 +452,18 @@ LXQtFancyMenuWindow {
     padding: 1px 3px;
 }
 
-#FancyMenu #CategoryView::item:selected,
-#FancyMenu #AppView::item:selected {
-    color: #ffffff;
-    background: #555555;
-    border: 1px solid #838383;
-}
-
 #FancyMenu #CategoryView::item:hover,
 #FancyMenu #AppView::item:hover {
     color: #ffffff;
     background: #3d3d3d;
     border: 1px solid #7c7c7c;
+}
+
+#FancyMenu #CategoryView::item:selected,
+#FancyMenu #AppView::item:selected {
+    color: #ffffff;
+    background: #555555;
+    border: 1px solid #838383;
 }
 
 #FancyMenu QLabel {
@@ -630,6 +630,10 @@ LXQtFancyMenuWindow {
     selection-background-color: #5a5a5a;
 }
 
+#WingMenuPlugin QListView:focus {
+    outline: transparent;
+}
+
 #WingMenuPlugin QLabel {
     color: #dedede;
     background: #2a2a2a;
@@ -688,10 +692,6 @@ LXQtFancyMenuWindow {
     border-radius: 17px;
     margin: 4px 6px;
     padding: 7px;
-}
-
-#WingMenuPlugin ApplicationsView:focus {
-    outline: transparent;
 }
 
 #WingMenuPlugin ApplicationsView::item {
@@ -1163,7 +1163,7 @@ QCalendarWidget QSpinBox::down-arrow {
     qproperty-icon: url(/assets/icons/directory-menu.svg);
 }
 
-/* ---------- CPU monitor ---------- */
+/* ---------- CPU Monitor ---------- */
 #LXQtCpuLoad {
     qproperty-fontColor: #dedede;
 }

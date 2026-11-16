@@ -103,7 +103,7 @@ LXQtPanel[position="Right"] LXQtPanelPlugin > QToolButton {
 LXQtPanel[position="Left"] #DesktopSwitch,
 LXQtPanel[position="Right"] #DesktopSwitch {
     color: #dedede;
-    background: transparent;
+    background: #202020;
     border: 1px solid #393939;
     border-radius: 17px;
     margin: 5px;
@@ -193,7 +193,7 @@ LXQtPanel[position="Right"] #DesktopSwitch QToolButton {
 #QuickLaunch,
 LXQtPanel[position="Left"] #QuickLaunch,
 LXQtPanel[position="Right"] #QuickLaunch {
-    background: transparent;
+    background: #202020;
     border: 1px solid #393939;
     border-radius: 17px;
     margin: 5px;

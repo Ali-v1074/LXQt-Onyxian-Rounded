@@ -15,7 +15,7 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠁
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡟
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠁
-*/
+
 /* Onyxian-Rounded Theme by Ali-v1074 */
 
 /* ---------- General Panel Settings ---------- */
@@ -96,6 +96,31 @@ LXQtPanel[position="Right"] LXQtPanelPlugin > QToolButton {
     border-radius: 17px;
     margin: 5px;
     padding: 4px 7px;
+}
+
+/* ---------- Spacer ---------- */
+#Spacer {
+    background-position: center center;
+}
+
+#Spacer[type="lined"] {
+    background-image: url(/assets/spacer-plugin/spacer-line.svg);
+}
+
+#Spacer[type="dotted"] {
+    background-image: url(/assets/spacer-plugin/spacer-dots.svg);
+}
+
+#Spacer[orientation="horizontal"] {
+    background-repeat: repeat-y;
+    background-position: center center;
+    margin: 6px 0;
+}
+
+#Spacer[orientation="vertical"] {
+    background-repeat: repeat-x;
+    background-position: center center;
+    margin: 0 6px;
 }
 
 /* ---------- Desktop Switch ---------- */
@@ -301,31 +326,6 @@ LXQtPanel[position="Right"] #QuickLaunch QToolButton {
     padding: 0;
 }
 
-/* ---------- Spacer ---------- */
-#Spacer {
-    background-position: center center;
-}
-
-#Spacer[type="lined"] {
-    background-image: url(/assets/spacer-plugin/spacer-line.svg);
-}
-
-#Spacer[type="dotted"] {
-    background-image: url(/assets/spacer-plugin/spacer-dots.svg);
-}
-
-#Spacer[orientation="horizontal"] {
-    background-repeat: repeat-y;
-    background-position: center center;
-    margin: 6px 0;
-}
-
-#Spacer[orientation="vertical"] {
-    background-repeat: repeat-x;
-    background-position: center center;
-    margin: 0 6px;
-}
-
 /* ---------- All Menus ---------- */
 QMenu {
     color: #dedede;
@@ -412,6 +412,17 @@ LXQtFancyMenuWindow {
     border: 1px solid #393939;
 }
 
+#FancyMenu QListView::item {
+    min-width: 133px;
+    max-width: 133px;
+    min-height: 25px;
+    max-height: 25px;
+}
+
+#FancyMenu QListView:focus {
+    outline: transparent;
+}
+
 #FancyMenu QLineEdit {
     color: #dedede;
     background: #2a2a2a;
@@ -471,17 +482,6 @@ LXQtFancyMenuWindow {
     background: #2a2a2a;
 }
 
-#FancyMenu QListView:focus {
-    outline: transparent;
-}
-
-#FancyMenu QListView::item {
-    min-width: 133px;
-    max-width: 133px;
-    min-height: 25px;
-    max-height: 25px;
-}
-
 #FancyMenu QToolButton {
     background: #2a2a2a;
     border: 1px solid #393939;
@@ -534,6 +534,10 @@ LXQtFancyMenuWindow {
     qproperty-icon: url(/assets/icons/menu.svg);
 }
 
+#MainMenu QListView:focus {
+    outline: transparent;
+}
+
 #MainMenu QLineEdit {
     color: #dedede;
     background: #2a2a2a;
@@ -543,10 +547,6 @@ LXQtFancyMenuWindow {
     padding: 5px 7px;
     selection-color: #ffffff;
     selection-background-color: #5a5a5a;
-}
-
-#MainMenu QListView:focus {
-    outline: transparent;
 }
 
 #MainMenu ActionView {
@@ -619,6 +619,10 @@ LXQtFancyMenuWindow {
     padding: 13px;
 }
 
+#WingMenuPlugin QListView:focus {
+    outline: transparent;
+}
+
 #WingMenuPlugin QLineEdit {
     color: #dedede;
     background: #2a2a2a;
@@ -628,15 +632,6 @@ LXQtFancyMenuWindow {
     padding: 7px;
     selection-color: #ffffff;
     selection-background-color: #5a5a5a;
-}
-
-#WingMenuPlugin QListView:focus {
-    outline: transparent;
-}
-
-#WingMenuPlugin QLabel {
-    color: #dedede;
-    background: #2a2a2a;
 }
 
 #WingMenuPlugin #CategoryButton {
@@ -683,6 +678,11 @@ LXQtFancyMenuWindow {
     color: #dedede;
     background: #484848;
     border: 1px solid #6a6a6a;
+}
+
+#WingMenuPlugin QLabel {
+    color: #dedede;
+    background: #2a2a2a;
 }
 
 #WingMenuPlugin ApplicationsView {

@@ -767,13 +767,13 @@ VolumePopup {
     border: 1px solid #393939;
 }
 
-VolumePopup QWidget {
+VolumePopup QFrame {
     color: #dedede;
     background: #202020;
 }
 
 VolumePopup QScrollArea {
-    margin: 0 7px;
+    margin: 0 5px 1px 5px;
 }
 
 VolumePopup QPushButton#MixerLink {
@@ -781,7 +781,7 @@ VolumePopup QPushButton#MixerLink {
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 17px;
-    margin: 5px 0 0 0;
+    margin: 3px 0 0 0;
 }
 
 VolumePopup QPushButton {
@@ -789,7 +789,18 @@ VolumePopup QPushButton {
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 17px;
-    margin: 0 0 3px 5px;
+    margin: 0 0 4px 5px;
+    padding: 6px 5px;
+    qproperty-iconSize: 21px;
+}
+
+/* RTL-specific styles */
+VolumePopup[layoutDirection="1"] QPushButton {
+    color: #dedede;
+    background: #2a2a2a;
+    border: 1px solid #393939;
+    border-radius: 17px;
+    margin: 0 0 4px 0;
     padding: 6px 5px;
     qproperty-iconSize: 21px;
 }
@@ -799,6 +810,7 @@ VolumePopup QPushButton:focus {
 }
 
 VolumePopup QPushButton:hover,
+VolumePopup[layoutDirection="1"] QPushButton:hover,
 VolumePopup QPushButton#MixerLink:hover {
     color: #ffffff;
     background: #3d3d3d;
@@ -806,25 +818,29 @@ VolumePopup QPushButton#MixerLink:hover {
 }
 
 VolumePopup QPushButton:pressed,
+VolumePopup[layoutDirection="1"] QPushButton:pressed,
 VolumePopup QPushButton#MixerLink:pressed {
     color: #dedede;
     background: #303030;
     border: 1px solid #4a4a4a;
 }
 
-VolumePopup QPushButton:on {
+VolumePopup QPushButton:on,
+VolumePopup[layoutDirection="1"] QPushButton:on {
     color: #ffffff;
     background: #555555;
     border: 1px solid #838383;
 }
 
-VolumePopup QPushButton:hover:on {
+VolumePopup QPushButton:hover:on,
+VolumePopup[layoutDirection="1"] QPushButton:hover:on {
     color: #ffffff;
     background: #656565;
     border: 1px solid #a2a2a2;
 }
 
-VolumePopup QPushButton:on:pressed {
+VolumePopup QPushButton:on:pressed,
+VolumePopup[layoutDirection="1"] QPushButton:on:pressed {
     color: #dedede;
     background: #484848;
     border: 1px solid #6a6a6a;

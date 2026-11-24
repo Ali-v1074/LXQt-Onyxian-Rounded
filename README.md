@@ -2,7 +2,7 @@
 
 # Onyxian-Rounded LXQt Theme
 
-## 🛠️ Installation Instructions
+## Installation Instructions
 
 ### 1. Install Theme and Color Palettes
 
@@ -35,7 +35,7 @@ If you decide not to use the theme's `panel.conf` file and keep your own setting
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 * **Kvantum Engine:** Specifically required.
   > **Note:** Make sure the following settings are configured in **Kvantum Manager**:
@@ -55,7 +55,7 @@ If you decide not to use the theme's `panel.conf` file and keep your own setting
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <details>
 <summary>LXQt Panel</summary>

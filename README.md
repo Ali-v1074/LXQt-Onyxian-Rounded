@@ -13,10 +13,8 @@ Move the `panel.conf` file to:
 `~/.config/lxqt/`
 
 ### 3. Enable the Theme
-* Open **Appearance** settings.
-* From the sidebar menu, select **LXQt Theme**.
-* Choose **Onyxian-Rounded** from the list.
-
+* Enable the theme using `lxqt-config-appearance`.
+* Restart `lxqt-panel` using the command `lxqt-qdbus restart panel` or from the Session Settings.
 ---
 
 ### Panel Configuration Guidelines
@@ -26,7 +24,7 @@ If you decide not to use the theme's `panel.conf` file and keep your own setting
 - **Panel Size:** Set the panel size to at least **63px**, regardless of its position (**top, bottom, left, or right**).
 - **Icon Size:** Set the panel icon size to **22px or 24px**, depending on your preference.
 
->**Note:** Setting the panel size or icon size below the recommended values may cause the panel to appear compressed because the theme elevates it slightly above the screen edges.
+> **Note:** Setting the panel size or icon size below the recommended values may cause the panel to appear compressed. Additionally, if you change the panel orientation from horizontal (top or bottom) to vertical (left or right), or vice versa, restart `lxqt-panel` for the theme to display correctly. You can restart it using `lxqt-qdbus restart panel` or through **Session Settings**.
 
 **Additional Recommended Adjustments:**
 

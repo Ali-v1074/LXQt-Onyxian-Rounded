@@ -333,7 +333,7 @@ QMenu {
     border: 1px solid #393939;
     border-radius: 20px;
     margin: 0;
-    padding: 12px;
+    padding: 12px 3px;
 }
 
 QMenu::icon {
@@ -346,14 +346,14 @@ QMenu QToolButton {
     background: #161616;
     border: 1px solid #393939;
     border-radius: 10px;
-    margin: 8px 5px;
+    margin: 8px 14px;
     padding: 8px;
     font-weight: bold;
 }
 
 QMenu::separator {
     background: #4c4c4c;
-    margin: 5px;
+    margin: 5px 14px;
     height: 1px;
 }
 
@@ -362,7 +362,7 @@ QMenu::item {
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 16px;
-    margin: 5px;
+    margin: 5px 14px;
     padding: 5px;
     font-size: 13px;
 }
@@ -432,6 +432,7 @@ LXQtFancyMenuWindow {
     padding: 6px 8px;
     selection-color: #ffffff;
     selection-background-color: #5a5a5a;
+    qproperty-clearButtonEnabled: false;
 }
 
 #FancyMenu #CategoryView {
@@ -543,10 +544,11 @@ LXQtFancyMenuWindow {
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 17px;
-    margin: 10px 7px;
+    margin: 10px 16px;
     padding: 5px 7px;
     selection-color: #ffffff;
     selection-background-color: #5a5a5a;
+    qproperty-clearButtonEnabled: false;
 }
 
 #MainMenu ActionView {
@@ -560,7 +562,7 @@ LXQtFancyMenuWindow {
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 17px;
-    margin: 7px;
+    margin: 7px 16px;
     padding: 4px 3px 4px 10px;
 }
 
@@ -632,6 +634,7 @@ LXQtFancyMenuWindow {
     padding: 7px;
     selection-color: #ffffff;
     selection-background-color: #5a5a5a;
+    qproperty-clearButtonEnabled: false;
 }
 
 #WingMenuPlugin #CategoryButton {

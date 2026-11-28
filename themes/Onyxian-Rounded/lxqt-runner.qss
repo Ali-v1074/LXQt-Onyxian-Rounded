@@ -98,7 +98,7 @@ QMenu {
     border: 1px solid #393939;
     border-radius: 20px;
     margin: 0;
-    padding: 12px;
+    padding: 12px 3px;
 }
 
 QMenu::icon {
@@ -108,7 +108,7 @@ QMenu::icon {
 
 QMenu::separator {
     background: #4c4c4c;
-    margin: 5px;
+    margin: 5px 14px;
     height: 1px;
 }
 
@@ -117,7 +117,7 @@ QMenu::item {
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 16px;
-    margin: 5px;
+    margin: 5px 14px;
     padding: 5px;
     font-size: 13px;
 }

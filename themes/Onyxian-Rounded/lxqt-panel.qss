@@ -557,13 +557,18 @@ LXQtFancyMenuWindow {
     border: none;
 }
 
+#MainMenu QListView::item {
+    min-height: 32px;
+    max-height: 32px;
+}
+
 #MainMenu ActionView::item {
     color: #dedede;
     background: #2a2a2a;
     border: 1px solid #393939;
     border-radius: 17px;
-    margin: 7px 16px;
-    padding: 4px 3px 4px 10px;
+    margin: 5px 16px;
+    padding: 0 5px;
 }
 
 #MainMenu ActionView::item:selected {

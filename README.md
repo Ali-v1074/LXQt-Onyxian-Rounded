@@ -65,7 +65,7 @@ If you decide not to use the theme's `panel.conf` file and keep your own setting
 <details>
 <summary>Wing Menu</summary>
 
-<img width="764" height="812" alt="2" src="https://github.com/user-attachments/assets/3177c49e-5901-4d5c-9533-06c7114ba501" />
+<img width="709" height="755" alt="2" src="https://github.com/user-attachments/assets/9a733f84-4faf-4f51-b1ed-610cdab6fe7d" />
 
 </details>
 

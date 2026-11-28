@@ -619,6 +619,7 @@ LXQtFancyMenuWindow {
     border: 1px solid #393939;
     border-radius: 20px;
     padding: 13px;
+    margin: 0;
 }
 
 #WingMenuPlugin QListView:focus {
